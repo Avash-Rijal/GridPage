@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200;400&family=Roboto&family=Skranji&display=swap');
+
+body{
+    background-color: rgb(225, 232, 240);
+}
+
+.page-container{
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: 18% 82%;
+    grid-template-rows: 100%;
+}
+
+.navigator{
+    font-family: inherit;
+    background-color: rgb(24, 146, 211);
+    color: white;
+    padding-left: 1em;
+    height: 100%;
+}
+
+.navigator>p{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.nav-options{
+    margin-top: 2em;
+}
+
+.nav-options>p{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    font-size: 0.9em;
+    margin-left: 0.2em;
+}
+
+.help{
+    margin-top: 2em;
+}
+
+.help>p{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 0.9em;
+    margin-left: 0.5em;
+}
+
+input{
+    appearance: none;
+    border-radius: 2em;
+    border: 0px solid white;
+    background-color: rgb(225, 232, 238);
+    height: 2em;
+    width: 50em;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.header-top{
+    display: flex;
+    align-items: center;
+    gap: 8em;
+    margin-left: 2em;
+}
+
+.images-profile{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+.profile-name{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.profile-name>img{
+    border-radius: 50%;
+}
+
+.header{
+    background-color: white;
+    box-shadow: 0 8px 8px -4px rgb(119, 118, 118); 
+}
+
+.header-bottom{
+    display: flex;
+    align-items: center;
+    gap: 30em;
+    margin-top: 0.5em;
+    margin-left: 2em;
+    padding-bottom: 1em;
+}
+
+.header-bottom>img{
+    border-radius: 50%;
+}
+
+.profile-introduction{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.profile-introduction>img{
+    border-radius: 50%;
+}
+
+.introduction{
+    line-height: 0em;
+}
+
+button{
+    appearance: none;
+    background-color: rgb(24, 146, 211);
+    height: 2.5em;
+    width: 6.5em;
+    border: 0px solid white;
+    border-radius: 4em;
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.main-body{
+    display: flex;
+    margin-top: 1.5em;
+    margin-left: 2em;
+}
+
+.project-list{
+    display: grid;
+    grid-template-columns: 22em 22em;
+    grid-template-rows: 12em 12em 12em;
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+    padding-bottom: 4em;
+}
+
+.project{
+    display: flex;
+    border: 0px;
+    border-radius: 0.5em;
+    background-color: white;
+    box-shadow: 0 4px 4px -2px rgb(119, 118, 118);
+}
+
+.project>.yellow-color{
+    background-color: rgb(238, 182, 37);
+    width: 0.8em;
+    height: 100%;
+    border: 0;
+    border-radius: 0em 1em 1em;
+}
+
+.text-area>.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    margin-left: 14em;
+    margin-bottom: 5em;
+}
+
+.notices{
+    margin-left: 2em;
+}
+
+.announcement-box{
+    height: 20em;
+    width: 18em;
+    background-color: white;
+    border: 0;
+    border-radius: 1em;
+    box-shadow: 0 4px 4px -2px rgb(119, 118, 118);
+    display: flex;
+    flex-direction: column;
+}
+
+.trending{
+    margin-top: 2em;
+}
+
+.trending-box{
+    height: 16em;
+    width: 18em;
+    background-color: white;
+    border: 0;
+    border-radius: 1em;
+    box-shadow: 0 4px 4px -2px rgb(119, 118, 118);
+}
+
+.trending-box-content{
+    display: flex;
+}
+
+.trending-box-text{
+    display: flex;
+    flex-direction: column;
+    line-height: 0em;
+    margin-left: 1em;
+    margin-top: 0.8em;
+}
+
+.trending-box-content > img{
+    border: 0;
+    border-radius: 2em;
+}
+
